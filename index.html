@@ -1,12 +1,53 @@
-<!doctype html><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Apps — Support</title>
+<meta name="description" content="Support hub for our macOS apps.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Crect rx='12' width='64' height='64' fill='%232f73ff'/%3E%3Cpath d='M18 33h28M18 33l6-6M18 33l6 6' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="style.css">
-<main class="card">
-  <h1>Support — Apps</h1>
-  <ul>
-    <li><a href="copyskipper/">CopySkipper</a> — one-way folder <b>sync</b> for macOS</li>
-    <li><a href="another-app/">Another App</a> — short tagline</li>
-  </ul>
-  <p class="fineprint"><a href="privacy/">Privacy Policy</a></p>
-</main>
+
+<div class="container">
+  <header class="header">
+    <h1>Support — Apps</h1>
+    <p>Quick help, FAQ, and contact for our macOS tools.<br>
+       Primary language: English.</p>
+    <div class="nav">
+      <a class="btn" href="privacy/">Privacy Policy</a>
+      <a class="btn" href="mailto:support@example.com">Contact support</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="grid">
+      <!-- CopySkipper card -->
+      <a class="card app" href="copyskipper/">
+        <div class="icon">
+          <!-- ここに 128x128 PNG を置きたいなら <img src="../icons/copyskipper.png" width="56" height="56"> に差し替え可 -->
+          <span style="font-size:26px">🧭</span>
+        </div>
+        <div class="meta">
+          <h3>CopySkipper <span class="tag">sync</span></h3>
+          <p>One-way folder sync for macOS. Drag, <i>Sync now</i>, Auto-run.</p>
+        </div>
+      </a>
+
+      <!-- 他アプリ例（あとで増やす） -->
+      <a class="card app" href="another-app/">
+        <div class="icon"><span style="font-size:26px">✨</span></div>
+        <div class="meta">
+          <h3>Another App</h3>
+          <p>Short tagline goes here.</p>
+        </div>
+      </a>
+
+      <a class="card app" href="third-app/">
+        <div class="icon"><span style="font-size:26px">🎛️</span></div>
+        <div class="meta">
+          <h3>Third App</h3>
+          <p>Short tagline goes here.</p>
+        </div>
+      </a>
+    </div>
+    <p class="footer">© 2025 Your Name or Company. All rights reserved.</p>
+  </section>
+</div>
