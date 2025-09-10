@@ -9,3 +9,8 @@ Pages are deployed via **GitHub Pages** from the `docs/` folder.
 - Privacy Policy: `https://<your-user>.github.io/support/privacy/`
 
 ## Structure
+docs/
+index.html           # Apps list (links to each product)
+style.css            # Shared styles
+privacy/index.html   # Privacy Policy
+copyskipper/index.html   # CopySkipper support page
